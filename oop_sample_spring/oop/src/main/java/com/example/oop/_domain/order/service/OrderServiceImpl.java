@@ -10,6 +10,7 @@ import com.example.oop._domain.order.Order;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
+@Service
 public class OrderServiceImpl implements OrderService {
 
    private final MemberRepository memberRepository;

@@ -10,6 +10,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
+@Service
 public class MemberServiceImpl implements MemberService {
 
    private MemberRepository memberRepository;

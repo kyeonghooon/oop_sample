@@ -3,11 +3,14 @@ package com.example.oop._domain.member.repository;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import com.example.oop._domain.member.Grade;
 import com.example.oop._domain.member.Member;
 
+@Repository
+@Profile("dev")
 public class MemoryMemberRepositoryImpl implements MemberRepository {
 
    private Map<Long, Member> memberStore = new HashMap<>();

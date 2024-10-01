@@ -1,10 +1,12 @@
 package com.example.oop._domain.order;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import com.example.oop._domain.member.Grade;
 import com.example.oop._domain.member.Member;
 
+@Service
 public class FixDiscountPolicyImpl implements DiscountPolicy {
 
    private int discountFixAmount = 1500;
