@@ -7,6 +7,7 @@ import com.example.oop._domain.member.Grade;
 import com.example.oop._domain.member.Member;
 
 @Service
+@Primary
 public class FixDiscountPolicyImpl implements DiscountPolicy {
 
    private int discountFixAmount = 1500;

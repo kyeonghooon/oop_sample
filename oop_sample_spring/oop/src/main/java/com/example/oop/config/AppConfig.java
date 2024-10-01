@@ -12,7 +12,7 @@ import com.example.oop._domain.order.FixDiscountPolicyImpl;
 import com.example.oop._domain.order.service.OrderService;
 import com.example.oop._domain.order.service.OrderServiceImpl;
 
-@Configuration
+// @Configuration
 public class AppConfig {
 
    @Bean

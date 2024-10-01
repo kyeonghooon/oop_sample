@@ -7,5 +7,5 @@
 1. **PercentDiscountPolicyImpl** (정률 할인 정책)
 2. **FixDiscountPolicyImpl** (고정 할인 정책)
 
-현재 프로젝트에서는 **PercentDiscountPolicyImpl**이 기본적으로 사용됩니다. 
-이를 위해 `@Primary` 어노테이션을 **PercentDiscountPolicyImpl** 클래스에 적용하였습니다.
+현재 프로젝트에서는 **FixDiscountPolicyImpl**이 기본적으로 사용됩니다. 
+이를 위해 `@Primary` 어노테이션을 **FixDiscountPolicyImpl** 클래스에 적용하였습니다.
